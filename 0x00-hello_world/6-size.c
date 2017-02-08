@@ -8,6 +8,6 @@
 
 int main(void)
 {
-printf("with proper grammar, but the outcome is a piece of art,\n");
+sizeof(char, int, long int, long long int, float);
 return (0);
 }
