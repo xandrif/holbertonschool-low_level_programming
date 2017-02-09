@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc asm2.c -o $CFILE -masm=intel
+gcc -o $CFILE -masm=intel
