@@ -1,0 +1,6 @@
+#include<stdio.h>
+int main(void)
+{
+	printf("Rice daddy in the house!\n");
+	return 0;
+}
