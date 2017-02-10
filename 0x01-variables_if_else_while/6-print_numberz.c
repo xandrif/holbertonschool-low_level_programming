@@ -12,7 +12,7 @@ int main(void)
 
 	for (m = 48; m < 58; m++)
 	{
-		putchar (m);
+		putchar(m);
 	}
 	putchar(10);
 	return (0);
