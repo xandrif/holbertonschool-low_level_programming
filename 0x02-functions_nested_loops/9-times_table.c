@@ -3,9 +3,9 @@
 /**
  * times_table - prints the last digit.
 (*
- * @void
- * Description: returns absolute values for specified signs
-(* section header: Section description)*
+ * @void:d
+ * Description: ok
+(* section header: Section)*
  * Return: 0 (Success)
  */
 
@@ -18,31 +18,29 @@ void times_table(void)
 
 	for (m = 0; m <= 9; m++)
 	{
-		for (i=0; i <=9; i++)
+		for (i = 0; i <= 9; i++)
 		{
-			if (m >= 10)
+			n = m * i;
+			if (n >= 10)
 			{
-				_putchar((m % 10) + '0');
-				_putchar((m / 10) + '0');
-			}
-			else
-			{
-				n = m * i;
 				_putchar(',');
-				_putchar('_');
-				_putchar('n');
+				_putchar(' ');
+				_putchar((n / 10) + '0');
+				_putchar((n % 10) + '0');
+			}
+			if (n < 10 && i > 0)
+			{
+				_putchar(',');
+				_putchar(' ');
+				_putchar(' ');
+				_putchar((n % 10) + '0');
+
+			}
+			else if (i == 0)
+			{
+				_putchar((n % 10) + '0');
 			}
 		}
-		(if (m = 0))
-		{
-			_putchar(n);
-			_putchar(',');
-		}
-		(if (m = 9))
-		{
-			_putchar('_');
-			_putchar('n');
-		}
-	       	_putchar('\n');
+		_putchar('\n');
 	}
 }
