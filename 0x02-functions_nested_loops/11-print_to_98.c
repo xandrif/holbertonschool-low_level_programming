@@ -1,29 +1,32 @@
+#include "holberton.h"
 #include <stdio.h>
-
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
+ * print_to_98 - prints the last digit.
+(*
+ * @n: it's an int
+ * Description: returns absolute values for specified signs
+(* section header: Section description)*
+ * Return: 0 (Success)
  */
 
-int main(void)
+void print_to_98(int n)
 {
-	int n;
-	int m;
-
-	for (n = 48; n < 58; n++)
+	if (n < 98)
 	{
-		for (m = 48; m < 58; m++)
+		while (n < 98)
 		{
-			putchar(n);
-			putchar(m);
-			if (n != 57 || m != 57)
-			{
-				putchar(',');
-				putchar(' ');
-			}
+			printf("%d, ", n);
+			n++;
 		}
 	}
-	putchar(10);
-	return (0);
+	if (n > 98)
+	{
+		while (n > 98)
+		{
+			printf("%d, ", n);
+			n--;
+		}
+
+	}
+	printf("98\n");
 }

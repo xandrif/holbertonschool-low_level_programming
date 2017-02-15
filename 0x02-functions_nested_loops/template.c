@@ -1,15 +1,15 @@
 #include "holberton.h"
 
 /**
- * add - prints the last digit.
+ * print_to_98 - prints the last digit.
 (*
- * @n: @m:
+ * @void: no parameters
  * Description: returns absolute values for specified signs
 (* section header: Section description)*
  * Return: 0 (Success)
  */
 
-int add(int n, int m)
+void print_to_98(int n);
 {
-	n + m;
+	
 }
