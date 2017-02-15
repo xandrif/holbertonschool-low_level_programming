@@ -1,20 +1,29 @@
 #include "holberton.h"
 
 /**
- * abs - prints signs and things.
-(*
- * @int: an integer
+ * _abs - prints signs and things.
+(* @n: an integer
+ *
  * Description: returns absolute values for specified signs
 (* section header: Section description)*
  * Return: 0 (Success)
  */
 
 
-int _abs(int);
+int _abs(int n)
 {
-	int x;
-	unsigned y;
-	y = (x >= 0 ? x:-x);
-	putchar("%i", y);
+	if (n < 0)
+	{
+		return (n * (-1));
+
+	}
+	else if (n > 0)
+	{
+		return (n);
+	}
+	else
+	{
+		return (n);
+	}
 	return (0);
 }
