@@ -1,20 +1,16 @@
 #include "holberton.h"
 
 /**
- * abs - prints signs and things.
+ * print_last_digit(int) - prints the last digit.
 (*
- * @int: an integer
+ * @n: an integer
  * Description: returns absolute values for specified signs
 (* section header: Section description)*
  * Return: 0 (Success)
  */
 
 
-int _abs(int);
+int print_last_digt(int n);
 {
-	int x;
-	unsigned y;
-	y = (x >= 0 ? x:-x);
-	putchar("%i", y);
-	return (0);
+	return (n % 10);
 }
