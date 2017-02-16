@@ -2,16 +2,25 @@
 #include "holberton.h"
 
 /**
- * main - check the code for Holberton School students.
- * fizz_buzz - sure there we go 
+ * main - entry point
+ *
  * Return: Always 0.
  */
 
 int main(void)
 {
-        fizz_buzz();
-        return (0);
+	fizz_buzz();
+	return (0);
 }
+
+/**
+ * fizz_buzz - check of fizz buzz
+ * @void: Description of parameter x
+(*
+* Description: Longer description of the function)?
+(* section header: Section description)*
+* Return: void
+*/
 
 void fizz_buzz(void)
 {
