@@ -32,8 +32,3 @@ int fizz_buzz(int n)
 	return (0);
 }
 
-int main(void)
-{
-	fizz_buzz(100);
-	return(0);
-}
