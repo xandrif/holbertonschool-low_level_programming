@@ -2,15 +2,21 @@
 #include "holberton.h"
 
 /**
- * fizz_buzz - Short description, single line
- * @n: Description of parameter x
-(*
- * Description: Longer description of the function)?
-(* section header: Section description)*
-* Return: 0 - success
-*/
-int fizz_buzz(int n)
+ * main - check the code for Holberton School students.
+ * fizz_buzz - sure there we go 
+ * Return: Always 0.
+ */
+
+int main(void)
 {
+        fizz_buzz();
+        return (0);
+}
+
+void fizz_buzz(void)
+{
+	int n;
+
 	for (n = 1; n <= 100; n++)
 		if ((n % 3) == 0 && (n % 5) == 0)
 		{
@@ -33,5 +39,4 @@ int fizz_buzz(int n)
 			printf("%d ", n);
 		}
 	putchar('\n');
-	return (0);
 }
