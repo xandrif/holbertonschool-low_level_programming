@@ -20,9 +20,13 @@ int fizz_buzz(int n)
 		{
 			printf("Fizz ");
 		}
-		else if ((n % 5) == 0)
+		else if ((n % 5) == 0 && n != 100)
 		{
 			printf("Buzz ");
+		}
+		else if (n == 100)
+		{
+			printf("Buzz");
 		}
 		else
 		{
@@ -31,4 +35,3 @@ int fizz_buzz(int n)
 	putchar('\n');
 	return (0);
 }
-
